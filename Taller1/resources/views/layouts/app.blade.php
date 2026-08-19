@@ -26,7 +26,7 @@ Añadir todo este código
 
     <div class="container"> 
 
-      <a class="navbar-brand" href="#">Online Store</a> 
+      <a class="navbar-brand" href="{{ route('home.index') }}">Online Store</a> 
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
 
@@ -40,9 +40,9 @@ Añadir todo este código
 
         <div class="navbar-nav ms-auto"> 
 
-          <a class="nav-link active" href="#">Home</a> 
+          <a class="nav-link active" href="{{ route('home.index') }}">Home</a> 
 
-          <a class="nav-link active" href="#">About</a> 
+          <a class="nav-link active" href="{{ route('home.about') }}">About</a> 
 
         </div> 
 
