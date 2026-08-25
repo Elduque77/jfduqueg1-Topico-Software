@@ -26,7 +26,7 @@
 
         </h5> 
 
-        <p class="card-text">{{ $viewData["product"]["description"] }}</p> 
+        <p class="card-text">{{ $viewData["product"]["price"] }}</p>
 
       </div> 
 
